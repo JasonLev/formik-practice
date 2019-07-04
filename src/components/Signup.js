@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik } from 'formik';
 
-function App() {
+function Signup() {
     return (
             <Formik
                 initialValues={{ email: '', password: '' }}
@@ -64,4 +64,4 @@ function App() {
     );
 }
 
-export default App;
+export default Signup;
